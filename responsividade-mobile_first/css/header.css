@@ -9,12 +9,43 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
     background-color: var(--white);
+    position: relative;
 }
 
-.header .container {
+.container {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+.list-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container-button:checked ~ .list-menu {
+    display: block;
+}
+
+.list-menu .list-menu_title, .list-menu_item {
+    background-color: var(--white);
+    padding: 1rem;
+}
+
+.list-menu_title {
+    font-weight: 700;
+    color: var(--oranje);
+}
+.list-menu_link {
+    text-transform: uppercase;
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.container-button {
+    display: none;
 }
