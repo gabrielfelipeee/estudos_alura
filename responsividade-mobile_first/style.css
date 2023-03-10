@@ -1,9 +1,10 @@
 @import url("css/header.css");
 @import url("css/banner.css");
+@import url("css/carrossel.css");
 
 :root {
     --background-color: #EBECEE;
-    --oranje: #EB9B00;
+    --orange: #EB9B00;
     --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);;
     --white: #FFFFFF;
     --main-font: 'Poppins', sans-serif;
@@ -13,7 +14,5 @@ body {
     font-family: var(--main-font);
     font-size: 16px;
     background-color: var(--background-color);
-    width: 375px;
-    border: 1px solid red;
 }
 

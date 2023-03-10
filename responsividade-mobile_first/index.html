@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -49,5 +50,43 @@
         <p class="banner-text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner-search" placeholder="Qual será sua próxima leitura?">
     </section>
+    <section class="carrossel">
+        <h2 class="carrossel-title">Últimos lançamentos</h2>
+        <div class="swiper">
+
+        <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/gestao.svg" alt="Livro sobre Gestão de produtos.">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/liderança.svg" alt="Livro sobre liderança">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/metricas-ageis.svg" alt="Livro sobre métricas ágeis">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/javascript-assertivo.svg" alt="Livro sobre javaScript assertivo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/portugol.svg" alt="Livro sobre portugol">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/tuning.svg" alt="Livro sobre tuning de SQL">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/UX.svg" alt="Livro sobre UX">
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+.carrossel-title {
+    background-color: var(--white);
+    color: var(--orange);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 27px;
+    padding: 1.25rem 0 .5rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .7rem 0;
+}

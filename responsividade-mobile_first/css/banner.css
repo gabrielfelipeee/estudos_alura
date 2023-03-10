@@ -20,8 +20,9 @@
     color: var(--white);
     border: 1px solid var(--white);
     border-radius: 5rem;
-    padding: 1rem;
+    padding: 1rem 0;
     width: 100%;
+    text-align: center;
 }
 
 .banner-search::placeholder {
@@ -29,5 +30,5 @@
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
-    background: url(../img/lupa.svg) no-repeat;
+    background: url(../img/lupa.svg) no-repeat 1rem;
 }
