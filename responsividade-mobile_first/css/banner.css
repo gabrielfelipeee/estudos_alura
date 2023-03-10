@@ -1,0 +1,33 @@
+.banner {
+    background-image: var(--blue-gradient);
+    color: var(--white);
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
+
+.banner-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.banner-text {
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.banner-search {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.banner-search::placeholder {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    background: url(../img/lupa.svg) no-repeat;
+}
