@@ -21,3 +21,65 @@
     position: initial;
     margin: .7rem 0;
 }
+
+
+.card {
+    background-color: var(--white);
+    margin: 1.2rem 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.description-title {
+    font-weight: 700;
+    line-height: 1.7rem;
+    color: var(--orange);
+}
+
+.decription-title-book {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--blue);
+    margin: .5rem 0;
+}
+
+.description-text {
+    max-width: 148px;
+    line-height: 1.3rem;
+    font-weight: 400;
+    font-size: .9rem;
+    color: #000000D9;
+}
+
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 48px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+}
