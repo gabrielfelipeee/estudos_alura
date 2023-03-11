@@ -53,10 +53,10 @@
 }
 
 .description-text {
-    max-width: 148px;
     line-height: 1.3rem;
     font-weight: 400;
-    font-size: .9rem;
+    font-size: .85rem;
+    margin-right: .5rem;
     color: #000000D9;
 }
 
