@@ -53,7 +53,7 @@
 }
 
 .description-text {
-    line-height: 1.3rem;
+    line-height: 1.7rem;
     font-weight: 400;
     font-size: .85rem;
     margin-right: .5rem;
@@ -105,5 +105,35 @@
     .card {
         width: 60%;
         margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .swiper {
+        margin: 5rem 0;
+    }
+
+    .carrossel-container {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+        padding: 0 8rem;
+    }
+    .swiper-pagination {
+        position: initial;
+        margin: 2rem 0;
+    }
+    .card {
+        width: 50%;
+        margin-bottom: -2rem;
+    }
+
+    .description-title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .description-text {
+        font-size: 1rem;
     }
 }

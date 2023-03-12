@@ -48,16 +48,10 @@
 }
 
 
-.container-button, .options-button {
+.container-button, .options-button, .container-text, .options, .logo-title {
     display: none;
 }
 
-.logo-title {
-    display: none;
-}
-.options {
-    display: none;
-}
 .image-favorites {
     display: block;
 }
@@ -71,6 +65,7 @@
         display: block;
         font-family: var(--secondary-font);
         font-weight: 400;
+        margin-right: 3rem;
     }
     .logo-title-bold {
         font-weight: 700;
@@ -78,7 +73,7 @@
 
     .options {
         display: flex;
-        gap: 42px;
+        gap: 2.5rem;
     }
     .options-link {
         text-decoration: none;
@@ -94,5 +89,23 @@
     .options-button:checked ~ .list-menu {
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container-text {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--black);
+    }
+    .container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .options {
+        margin-right: auto;
     }
 }

@@ -48,3 +48,9 @@
         border-radius: 1.2rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .banner-search {
+        width: 30%;
+    }
+}
