@@ -6,6 +6,7 @@
 .contact-title {
     font-size: 1.1rem;
     font-weight: 500;
+    line-height: 2rem;
     color: var(--blue);
 }
 
@@ -37,4 +38,21 @@
     padding-left: 2rem;
     font-weight: 400;
     color: var(--blue);
+}
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem 8rem;
+    }
+
+    .contact-title {
+        font-size: 1.5rem;
+    }
+
+    .contact-email {
+        width: 70%;
+    }
 }

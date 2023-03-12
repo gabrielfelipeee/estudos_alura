@@ -46,7 +46,53 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.container-button {
+
+
+.container-button, .options-button {
     display: none;
-    
+}
+
+.logo-title {
+    display: none;
+}
+.options {
+    display: none;
+}
+.image-favorites {
+    display: block;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 0 80px;
+    }
+    .logo-title {
+        display: block;
+        font-family: var(--secondary-font);
+        font-weight: 400;
+    }
+    .logo-title-bold {
+        font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+        gap: 42px;
+    }
+    .options-link {
+        text-decoration: none;
+        font-weight: 400;
+        color: var(--black);
+        text-transform: uppercase;
+    }
+
+    .menu-burger, .image-favorites {
+        display: none;
+    }
+
+    .options-button:checked ~ .list-menu {
+        display: block;
+        width: auto;
+    }
 }

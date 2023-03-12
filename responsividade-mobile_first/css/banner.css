@@ -31,6 +31,20 @@
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
-    background: url(../img/lupa.svg) no-repeat;
+    background: url(../img/lupa.svg) no-repeat center left;
     padding-left: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 5.25rem 0;
+    }
+    .banner-title {
+        font-size: 2.25rem;
+    }
+
+    .banner-search {
+        width: 50%;
+        border-radius: 1.2rem;
+    }
 }
