@@ -4,6 +4,12 @@
     background-image: url(../img/menu.svg);
     display: inline-block;
 }
+.container-button:checked ~ .container-label > .menu-burger {
+    background: url(../img/menu-aberto.svg) no-repeat center center;
+}
+.container-button:checked ~.container-label {
+    background: var(--blue-gradient);
+}
 
 .header {
     display: flex;
@@ -11,6 +17,7 @@
     align-items: center;
     background-color: var(--white);
     position: relative;
+    margin-top: -1px;
 }
 
 .container {
