@@ -49,7 +49,7 @@
         color: var(--dark-grey);
     }
     .footer-item-link:hover {
-        text-decoration: underline;
+        color: var(--orange);
     }
 }
 

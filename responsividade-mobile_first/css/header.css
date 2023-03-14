@@ -88,6 +88,9 @@
         color: var(--black);
         text-transform: uppercase;
     }
+    .options-item:hover {
+        text-decoration: underline;
+    }
 
     .menu-burger, .image-favorites {
         display: none;
@@ -97,6 +100,26 @@
         display: block;
         width: auto;
     }
+
+    .options-button:checked ~ .options-label > .options-item {
+        background: var(--blue-gradient);
+        color: var(--white);
+    }
+    .options-item {
+        text-transform: uppercase;
+        padding: .8rem;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+
+    .list-menu_item:hover {
+        background: var(--blue-gradient);
+    }
+    .list-menu_item:hover > .list-menu_link {
+        -webkit-text-fill-color: var(--white);
+        text-decoration: none;
+    }
+
 }
 
 @media screen and (min-width: 1728px) {
@@ -105,6 +128,9 @@
         font-size: 1.2rem;
         font-weight: 400;
         color: var(--black);
+    }
+    .container-text:hover {
+        text-decoration: underline;
     }
     .container-link {
         display: flex;

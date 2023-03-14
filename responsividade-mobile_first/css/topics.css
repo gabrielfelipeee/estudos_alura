@@ -21,6 +21,9 @@
 .topics-item {
     background-color: var(--orange);
     padding: 1rem 1.5rem;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .5s;
 }
 
 .topics-link {
@@ -28,6 +31,8 @@
     font-weight: 700;
     font-size: .9rem;
     color: var(--white);
+    transition-property: color;
+    transition-duration: .5s;
 }
 
 @media screen  and (min-width: 1024px) {
@@ -37,6 +42,16 @@
 
     .topics-list {
         padding: 0 8rem;
+    }
+    .topics-item:hover {
+        background-color: var(--white);
+        transition-property: background;
+        transition-duration: .5s;
+    }
+    .topics-item:hover > .topics-link {
+        color: var(--orange);
+        transition-property: color;
+        transition-duration: .5s;
     }
 }
 
